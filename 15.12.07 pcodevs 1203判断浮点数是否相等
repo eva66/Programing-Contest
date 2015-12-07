@@ -1,0 +1,15 @@
+/*
+作者:eva66
+题目:p1203 判断浮点数是否相等
+*/
+
+#include <cstream>
+using namespace std;
+int main()
+{
+	float a,b;
+	cin>>a>>b;
+	if(a==b) cout<<"yes"<<endl;
+	else cout<<"no"<<endl;
+	return 0;
+}
