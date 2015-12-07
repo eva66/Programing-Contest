@@ -1,0 +1,16 @@
+/*
+作者:eva66
+题目:p1206 保留两位小数
+*/
+
+#include<cstdio>
+using namespace std;
+int main()
+{
+    double a;
+    scanf("%lf",&a);
+    printf("%.2lf",a);
+    return 0;
+}
+
+
