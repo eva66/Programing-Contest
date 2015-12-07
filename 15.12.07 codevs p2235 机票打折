@@ -1,0 +1,23 @@
+/*
+作者:eva66
+题目:p2235 机票打折
+*/
+
+#include<cstdio>
+using namespace std;
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    float b;
+    scanf("%f",&b);
+    int c;
+    c=a*b*0.1;
+    int d;
+    d=c%10;
+    if(d>5)  c=c-d+10;
+    else c=c-d;
+    printf("%d",c);
+    return 0;
+}
+
